@@ -1,0 +1,90 @@
+Metadata-Version: 2.2
+Name: seacoin-blockchain
+Version: 0.0.0
+Summary: SeaCoin blockchain full node, farmer, timelord, and wallet.
+Home-page: https://seacoin.vip/
+Author: Mariano Sorgente
+Author-email: mariano@seacoin.vip
+License: Apache License
+Project-URL: Source, https://github.com/ball-network/seacoin-blockchain/
+Project-URL: Changelog, https://github.com/Chia-Network/chia-blockchain/blob/main/CHANGELOG.md
+Keywords: seacoin blockchain node
+Requires-Python: >=3.8.1, <4
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: aiofiles==23.2.1
+Requires-Dist: anyio==4.0.0
+Requires-Dist: boto3==1.29.4
+Requires-Dist: chiavdf==1.1.0
+Requires-Dist: chiabip158==1.3
+Requires-Dist: chiapos==2.0.3
+Requires-Dist: clvm==0.9.8
+Requires-Dist: clvm_tools==0.4.7
+Requires-Dist: chia_rs==0.2.15
+Requires-Dist: clvm-tools-rs==0.1.39
+Requires-Dist: aiohttp==3.9.1
+Requires-Dist: aiosqlite==0.19.0
+Requires-Dist: bitstring==4.1.2
+Requires-Dist: colorama==0.4.6
+Requires-Dist: colorlog==6.7.0
+Requires-Dist: concurrent-log-handler==0.9.24
+Requires-Dist: cryptography==41.0.5
+Requires-Dist: filelock==3.13.1
+Requires-Dist: keyring==24.3.0
+Requires-Dist: PyYAML==6.0.1
+Requires-Dist: setproctitle==1.3.3
+Requires-Dist: sortedcontainers==2.4.0
+Requires-Dist: click==8.1.3
+Requires-Dist: dnspython==2.4.2
+Requires-Dist: watchdog==2.2.0
+Requires-Dist: dnslib==0.9.23
+Requires-Dist: typing-extensions==4.8.0
+Requires-Dist: zstd==1.5.5.1
+Requires-Dist: packaging==23.2
+Requires-Dist: psutil==5.9.4
+Provides-Extra: dev
+Requires-Dist: build==1.0.3; extra == "dev"
+Requires-Dist: coverage==7.3.2; extra == "dev"
+Requires-Dist: diff-cover==8.0.1; extra == "dev"
+Requires-Dist: pre-commit==3.5.0; extra == "dev"
+Requires-Dist: py3createtorrent==1.1.0; extra == "dev"
+Requires-Dist: pylint==3.0.2; extra == "dev"
+Requires-Dist: pytest==7.4.3; extra == "dev"
+Requires-Dist: pytest-cov==4.1.0; extra == "dev"
+Requires-Dist: pytest-mock==3.12.0; extra == "dev"
+Requires-Dist: pytest-xdist==3.5.0; extra == "dev"
+Requires-Dist: pyupgrade==3.15.0; extra == "dev"
+Requires-Dist: twine==4.0.2; extra == "dev"
+Requires-Dist: isort==5.12.0; extra == "dev"
+Requires-Dist: flake8==6.1.0; extra == "dev"
+Requires-Dist: mypy==1.7.0; extra == "dev"
+Requires-Dist: black==23.11.0; extra == "dev"
+Requires-Dist: lxml==4.9.3; extra == "dev"
+Requires-Dist: aiohttp_cors==0.7.0; extra == "dev"
+Requires-Dist: pyinstaller==5.13.0; extra == "dev"
+Requires-Dist: types-aiofiles==23.2.0.0; extra == "dev"
+Requires-Dist: types-cryptography==3.3.23.2; extra == "dev"
+Requires-Dist: types-pyyaml==6.0.12.12; extra == "dev"
+Requires-Dist: types-setuptools==68.2.0.1; extra == "dev"
+Provides-Extra: upnp
+Requires-Dist: miniupnpc==2.2.2; extra == "upnp"
+Provides-Extra: legacy-keyring
+Requires-Dist: keyrings.cryptfile==1.3.9; extra == "legacy-keyring"
+Dynamic: author
+Dynamic: author-email
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: keywords
+Dynamic: license
+Dynamic: project-url
+Dynamic: provides-extra
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+# seacoin-blockchain
+
+SeaCoin Website: https://seacoin.vip
+
+Full Node Port: 30000

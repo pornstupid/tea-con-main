@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+build_scripts/__init__.py
+build_scripts/check_dependency_artifacts.py
+build_scripts/installer-version.py
+seacoin_blockchain.egg-info/PKG-INFO
+seacoin_blockchain.egg-info/SOURCES.txt
+seacoin_blockchain.egg-info/dependency_links.txt
+seacoin_blockchain.egg-info/entry_points.txt
+seacoin_blockchain.egg-info/not-zip-safe
+seacoin_blockchain.egg-info/requires.txt
+seacoin_blockchain.egg-info/top_level.txt

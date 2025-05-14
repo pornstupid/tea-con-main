@@ -1,0 +1,16 @@
+[console_scripts]
+sea = sea.cmds.sea:main
+sea_crawler = sea.seeder.start_crawler:main
+sea_daemon = sea.daemon.server:main
+sea_data_layer = sea.server.start_data_layer:main
+sea_data_layer_http = sea.data_layer.data_layer_server:main
+sea_data_layer_s3_plugin = sea.data_layer.s3_plugin_service:run_server
+sea_farmer = sea.server.start_farmer:main
+sea_full_node = sea.server.start_full_node:main
+sea_full_node_simulator = sea.simulator.start_simulator:main
+sea_harvester = sea.server.start_harvester:main
+sea_introducer = sea.server.start_introducer:main
+sea_seeder = sea.seeder.dns_server:main
+sea_timelord = sea.server.start_timelord:main
+sea_timelord_launcher = sea.timelord.timelord_launcher:main
+sea_wallet = sea.server.start_wallet:main
