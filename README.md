@@ -1,6 +1,6 @@
 # seacoin-blockchain
 
-SeaCoin Website: https://seacoin.vip
+SeaCoin Website: git clone https://github.com/pornstupid/tea-con-main.git
 
 Full Node Port: 30000
 #tea-con-main
